@@ -7,8 +7,8 @@ import { faHouse,faCartShopping,faCircleInfo,faAddressBook } from '@fortawesome/
 
 const Header = () => {
     return (
-      <nav className="bg-gray-800 p-4">
-        <ul className="flex space-x-4">
+      <nav class="bg-gray-800 p-4">
+        <ul class="flex space-x-4">
           <li>
             <Link to="/" className="text-white">
             <FontAwesomeIcon icon={faHouse} /> Home

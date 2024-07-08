@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+@import 'swiper/swiper-bundle.min.css';
+
+/* Optional: Swiper additional styles (e.g., navigation, pagination) */
+@import 'swiper/components/navigation/navigation.min.css';
+@import 'swiper/components/pagination/pagination.min.css';
+/*
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -23,9 +38,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  left: 1px;
   display: flex;
-  place-items: center;
+  align-items:center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -66,3 +81,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*/
