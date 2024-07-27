@@ -9,10 +9,11 @@ import { Navigation } from 'swiper/modules';
 const Slider = ({images}) => {
   return (
     <>
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper" 
+      >
     {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <img src={image} alt={`Slide ${index + 1}`} className="w-full h-auto object-center" />
+          <img src={image} alt={`Slide ${index + 1}`} style={{ width: "100%" }} className="w-full h-auto object-center" />
         </SwiperSlide>
       ))}
     </Swiper>

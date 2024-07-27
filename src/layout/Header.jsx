@@ -15,8 +15,8 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link to="/content" className="text-white">
-            <FontAwesomeIcon icon={faCartShopping} /> Content
+            <Link to="/shop" className="text-white">
+            <FontAwesomeIcon icon={faCartShopping} /> Shop
             </Link>
           </li>
           <li>
