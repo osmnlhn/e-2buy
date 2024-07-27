@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from '../components/ProductCard';
 import Layout from '../layout/Layout';
+//
 
 const Content = () => {
 
